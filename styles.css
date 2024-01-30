@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    color: #ffffff;
+    background-color: #5955B3;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 119px;
+}
+
+/* Header Section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.navList{
+    flex-grow: 1;
+    padding-left: 62px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 36px;
+    color: #000;
+}
+
+li{
+    cursor: pointer;
+}
+
+/* Main Section */
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+h1{
+    color: #3C2F60;
+    font-size:  74px;
+    font-weight: 600;
+    line-height: 80px;
+}
+span{
+    color: #5D59B5;
+}
+
+p{
+    color: #828282;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    margin-top: 28px;
+}
+
+.mainImg{
+    height: 600px;
+}
+
+.mainBtn{
+    margin: 40px 15px;
+}
